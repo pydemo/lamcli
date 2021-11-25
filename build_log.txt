@@ -139,8 +139,7 @@ docker-compose run lambda src.lambda_function.lambda_handler
  1867  python3 -m venv env/
  1868  source env/bin/activate
 
- 1891  export SLACK_BOT_TOKEN='xoxb-2708787512871-2723458222658-aSrMCojQhOGYnEWiAEJQMsWD'
- 1892  export SLACK_SIGNING_SECRET='0358796eee69a6fbe91a26aebe39d3e5'
+
 
  1900  HOST="0.tcp.ngrok.io" PORT=12951 python3 ngclient.py
  1901  HOST="4.tcp.ngrok.io" PORT=18147 python3 ngclient.py
