@@ -1,0 +1,1 @@
+{"test":1} run test:Dockerfile lambda src.lambda_function.lambda_handler

@@ -1,31 +1,16 @@
-FROM amazonlinux:2.0.20200602.0 as stage2
-WORKDIR /app
-RUN yum update -y
-RUN yum install -y \
-python3-pip \
-zip \
-RUN yum -y clean all
-RUN python3 -m pip install --upgrade pip
+FROM lambci/lambda:python3.6 as stage1
 
 
+USER root
 
 ENV APP_DIR /var/task
 
 WORKDIR $APP_DIR
 
-
-
 COPY requirements.txt .
+COPY src ./src
 COPY bin ./bin
-
+COPY lib ./lib
 
 RUN mkdir -p $APP_DIR/lib
-RUN python3 -m pip  install -r requirements.txt -t /var/task/lib
-RUN ls -al /var/task/lib
-RUN echo "hello world 123" > output1.txt
-
-FROM scratch 
-
-COPY --from=stage2 /var/task/* .
-
-
+RUN pip3 install -r requirements.txt -t /var/task/lib
