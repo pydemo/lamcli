@@ -1,0 +1,151 @@
+docker build -t "test:Dockerfile" .
+docker run -d  "test:Dockerfile"  ls -al
+
+docker cp "2a4a0cbc08c73df1d3e92b592790991c576328074036304c35800a2d9251c8ce:output1.txt" .
+docker build -t "test:Dockerfile" .
+docker-compose build
+docker-compose run lambda src.lambda_function.lambda_handler
+ 
+
+1738  docker run
+ 1739  docker run Dockerfile
+ 1740  docker run -t -i --privileged amazonlinux:2.0.20200602.0
+ 1741  docker run -t -i lambci/lambda:python3.6
+ 1742  docker run -t -i lambci/lambda:python3.8
+ 1743  docker run -t -i --privileged lambci/lambda:python3.8
+ 1744  ls -al
+ 1745  docker build -t "test:Dockerfile"
+ 1746  docker build -t "test:Dockerfile" .
+ 1747  ls -ltr
+ 1748  ls lib
+ 1749  docker images
+ 1750  docker run "test:Dockerfile"
+ 1751  docker run "test:Dockerfile" ls /vat/task
+ 1752  docker run "test:Dockerfile" ls /var/task
+ 1753  docker run "test:Dockerfile" cat  output1.txt
+ 1754  docker run --entrypoint /bin/sh "test:Dockerfile" cat  output1.txt
+ 1755  docker run --entrypoint /bin/sh "test:Dockerfile" -c /bin/cat  output1.txt
+ 1756  docker run  "test:Dockerfile" -c /bin/cat  output1.txt
+ 1757  docker run -rm --entrypoint /bin/sh "test:Dockerfile" -c /bin/cat  output1.txt
+ 1758  docker run --rm --entrypoint /bin/sh "test:Dockerfile" -c /bin/cat  output1.txt
+ 1759  docker run --rm --entrypoint /bin/sh "test:Dockerfile" -c "/bin/cat  output1.txt"
+ 1760  docker run --rm --entrypoint /bin/bash "test:Dockerfile" -c "/bin/cat  output1.txt"
+ 1761  docker run --rm --entrypoint /bin/cat "test:Dockerfile"  output1.txt
+ 1762  docker create "test:Dockerfile"
+ 1763  docker create Dockerfile
+ 1764  docker create test
+ 1765  docker run -d  "test:Dockerfile"
+ 1766  docker run -d  "test:Dockerfile"  ls -al
+ 1767  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:output1.log" .
+ 1768  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:output1.txt" .
+ 1769  ls
+ 1770  ls -al
+ 1771  cat output1.txt
+ 1772  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:output1.txt" ./lib
+ 1773  ls lib
+ 1774  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:,.lib/*" ./lib
+ 1775  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:./lib/*" ./lib
+ 1776  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:/var/task/lib/*" ./lib
+ 1777  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:/var/task/lib" ./lib
+ 1778  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:/var/task" ./lib
+ 1779  docker build -t "test:Dockerfile" .
+ 1780  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:output1.txt" ./lib
+ 1781  ls lib
+ 1782  docker cp "153941e02873ca4a9bf90eb859a95e128d4357ffe69432acdd8e9594cbacaf02:output2.txt" ./lib
+ 1783  docker run -d  "test:Dockerfile"  ls -al
+ 1784  history
+ 1785  docker run -d  "test:Dockerfile"  ls -al
+ 1786  docker run -d  "test:Dockerfile"  "ls -al"
+ 1787  docker run -d  "test:Dockerfile"  "/usr/binls -al"
+ 1788  docker run -d  "test:Dockerfile"  "/usr/bin/\ls -al"
+ 1789  docker run -d  "test:Dockerfile"  "/usr/bin//ls -al"
+ 1790  docker run -d  "test:Dockerfile"  "/usr/bin/ls -al"
+ 1791  history
+ 1792  docker run -d  "test:Dockerfile"  "/usr/bin/ls -al"
+ 1793  docker cp "2a4a0cbc08c73df1d3e92b592790991c576328074036304c35800a2d9251c8ce:output1.txt" .
+ 1794  docker cp "2a4a0cbc08c73df1d3e92b592790991c576328074036304c35800a2d9251c8ce:output2.txt" .
+ 1795  ls -al
+ 1796  cat output
+ 1797  cat output2.txt
+ 1798  docker ls  "2a4a0cbc08c73df1d3e92b592790991c576328074036304c35800a2d9251c8ce:output2.txt"
+ 1799  docker run  "2a4a0cbc08c73df1d3e92b592790991c576328074036304c35800a2d9251c8ce" ls -al
+ 1800  docker run  2a4a0cbc08c73df1d3e92b592790991c576328074036304c35800a2d9251c8ce ls -al
+ 1801  docker run  test"Dockerfile ls -al
+ 1802  docker run  test:Dockerfile ls -al
+ 1803  docker run -it --rm test:Dockerfile /bin/sh
+ 1804  docker run -it --rm "test:Dockerfile" /bin/sh
+ 1805  docker build -t "test:Dockerfile" .
+ 1806  docker run -it --rm "test:Dockerfile" /bin/sh
+ 1807  ls
+ 1808  ls lib
+ 1809  cp ../pychromescraper/_lib/* ./lib -p
+ 1810  ls lib
+ 1811  cp Dockerfile Dockerfile_
+ 1812  docker build -t "test:Dockerfile" .
+ 1813  docker run -d  "test:Dockerfile"  ls -al
+ 1814  docker run -d  "test:Dockerfile"  ls -al ./lib
+ 1815  docker run -d  "test:Dockerfile"  ls -al /tmp
+ 1816  docker run  "test:Dockerfile"  ls -al /tmp
+ 1817  docker run  "test:Dockerfile"  "{}"
+ 1818  docker run -it --rm "test:Dockerfile" /bin/sh
+ 1819  docker run  "test:Dockerfile"
+ 1820  docker build -t "test:Dockerfile" .
+ 1821  docker run -it --rm "test:Dockerfile" /bin/sh
+ 1822  docker run  "test:Dockerfile"  ls -al /tmp
+ 1823  docker run -d  "test:Dockerfile"  ls -al /tmp
+ 1824  docker cp "54d7b3c9ef02a5b4786d2e521d2581fba419f3046a996f9f2f9d90b5167b45a1:output1.txt" .
+ 1825  docker cp "54d7b3c9ef02a5b4786d2e521d2581fba419f3046a996f9f2f9d90b5167b45a1:./lib" .
+ 1826  docker cp "54d7b3c9ef02a5b4786d2e521d2581fba419f3046a996f9f2f9d90b5167b45a1:/var" .
+ 1827  ls
+ 1828  ls var
+ 1829  rm var -Rf
+ 1830  docker cp "54d7b3c9ef02a5b4786d2e521d2581fba419f3046a996f9f2f9d90b5167b45a1:/var/task" .
+ 1831  ls task
+ 1832  ls task/lib
+ 1833  ls task/lib/bin
+ 1834  cat task/lib/bin/chromedriver-path
+ 1835  docker run -d  "test:Dockerfile"  "{}" "{}"
+ 1836  docker run  "test:Dockerfile"  "{}" "{}"
+ 1837  docker run  "test:Dockerfile"  "{1,2}"
+ 1838  docker run  "test:Dockerfile"  "{1,2} {}"
+ 1839  docker run  "test:Dockerfile"  1 2
+ 1840  docker run  "test:Dockerfile"  1:1 2
+ 1841  history|grep docker
+ 1842  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler
+ 1843  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler "{}"
+ 1844  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler {}
+ 1845  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler {"test":1}
+ 1846  echo '{"test":1}'|docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler
+ 1847  echo '{"test":1}'>docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler
+ 1848  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler
+ 1849  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler 1
+ 1850  docker run  "test:Dockerfile"  lambda src.lambda_function.lambda_handler 1 2 3  43
+ 1851  docker-compose  lambda src.lambda_function.lambda_handler
+ 1852  docker-compose run  lambda src.lambda_function.lambda_handler
+ 1853  docker build -t "test:Dockerfile" .
+ 1854  docker-compose run  lambda src.lambda_function.lambda_handler
+ 1855  docker-compose run lambda src.lambda_function.lambda_handler
+ 1856  docker-compose build
+ 1857  docker-compose run lambda src.lambda_function.lambda_handler
+ 1858  ls src
+ 1859  ls src/lambda_function.py
+ 1860  cat  src/lambda_function.py
+ 1861  docker-compose build
+ 1862  docker-compose run lambda src.lambda_function.lambda_handler
+ 1863  docker-compose build
+ 1864  docker-compose run lambda src.lambda_function.lambda_handler
+ 1865  python3 --version
+ 1866  mkdir PythOnBoardingBot && cd PythOnBoardingBot
+ 1867  python3 -m venv env/
+ 1868  source env/bin/activate
+
+ 1891  export SLACK_BOT_TOKEN='xoxb-2708787512871-2723458222658-aSrMCojQhOGYnEWiAEJQMsWD'
+ 1892  export SLACK_SIGNING_SECRET='0358796eee69a6fbe91a26aebe39d3e5'
+
+ 1900  HOST="0.tcp.ngrok.io" PORT=12951 python3 ngclient.py
+ 1901  HOST="4.tcp.ngrok.io" PORT=18147 python3 ngclient.py
+
+ 1903  HOST="4.tcp.ngrok.io" PORT=18147 python3 ngclient.py
+
+
+ 2007  docker-compose run lambda src.lambda_function.lambda_handler
